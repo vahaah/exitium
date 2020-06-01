@@ -75,7 +75,7 @@ version = "7.1.2"
 [[package]]
 category = "dev"
 description = "Cross-platform colored terminal text."
-marker = "sys_platform == \"win32\" or platform_system == \"Windows\""
+marker = "platform_system == \"Windows\" or sys_platform == \"win32\""
 name = "colorama"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
@@ -468,7 +468,7 @@ marker = "python_version == \"3.7\""
 name = "pytype"
 optional = false
 python-versions = "<3.8,>=3.5"
-version = "2020.5.7"
+version = "2020.5.13"
 
 [package.dependencies]
 attrs = "*"
@@ -594,7 +594,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "0bba6d2d7dba9c93656a01bb896de3b2f9761110c05677002232007ef51abd21"
+content-hash = "45500f6b2b80e312a98f88039f14ba8f9b73718daba032f67edd063e47fe1a5f"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -797,7 +797,7 @@ pytest-runner = [
     {file = "pytest_runner-5.2-py2.py3-none-any.whl", hash = "sha256:5534b08b133ef9a5e2c22c7886a8f8508c95bb0b0bdc6cc13214f269c3c70d51"},
 ]
 pytype = [
-    {file = "pytype-2020.5.7.tar.gz", hash = "sha256:a1619cee96ddbec535bde5af9a78182e6739883409c3be57373fa3a7bd3bc85f"},
+    {file = "pytype-2020.5.13.tar.gz", hash = "sha256:e7c968c43df190f54a3ca82b09c026a41aba2d95164ff1ffe61c399bd0e216a5"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
