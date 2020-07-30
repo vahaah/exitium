@@ -467,8 +467,8 @@ description = "Python type inferencer"
 marker = "python_version == \"3.7\""
 name = "pytype"
 optional = false
-python-versions = "<3.8,>=3.5"
-version = "2020.5.7"
+python-versions = "<3.9,>=3.5"
+version = "2020.7.24"
 
 [package.dependencies]
 attrs = "*"
@@ -594,7 +594,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "abf327c97ec9f7492526c180133108f0b32853d4f7a668fb0a9ceea93f13c757"
+content-hash = "8428d4a3ea651303063630787b2ee8dc24c7313647b794ebaccd5a4959801a9f"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -797,7 +797,13 @@ pytest-runner = [
     {file = "pytest_runner-5.2-py2.py3-none-any.whl", hash = "sha256:5534b08b133ef9a5e2c22c7886a8f8508c95bb0b0bdc6cc13214f269c3c70d51"},
 ]
 pytype = [
-    {file = "pytype-2020.5.7.tar.gz", hash = "sha256:a1619cee96ddbec535bde5af9a78182e6739883409c3be57373fa3a7bd3bc85f"},
+    {file = "pytype-2020.7.24-cp35-cp35m-macosx_10_14_x86_64.whl", hash = "sha256:a977290a6c2e12c3f69987bc21a5bf16f55372535c16b59e2480c07f4576ac61"},
+    {file = "pytype-2020.7.24-cp35-cp35m-manylinux2014_x86_64.whl", hash = "sha256:d1bc9066c922f1179e7ba2da320094f88942cf36da91654f5e9dc2968b9ba180"},
+    {file = "pytype-2020.7.24-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:d2193d30730f3d6e9c1dcb284cfaa1287ec642265cf2a0e972bcb0514c3b80a9"},
+    {file = "pytype-2020.7.24-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:17172f17daddcc67c281df11ffbc2f0847b1e71d799180ace79fc398b1b16315"},
+    {file = "pytype-2020.7.24-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:3ca6eb0d966d30523f8249cfc37885cfb3faa169587576592e9c96dbba568a5e"},
+    {file = "pytype-2020.7.24-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:49d3d6635241c7924ea671a61b47f1ec35d5e64df1f884d0c29279697cf1ca2a"},
+    {file = "pytype-2020.7.24.tar.gz", hash = "sha256:9ebc2b1351621323ce8644f5d20fac190ceb8ebb911aa9f880a1a93c6844803e"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
