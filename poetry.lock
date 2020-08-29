@@ -573,7 +573,7 @@ description = "Filesystem events monitoring"
 name = "watchdog"
 optional = false
 python-versions = "*"
-version = "0.10.2"
+version = "0.10.3"
 
 [package.dependencies]
 pathtools = ">=0.1.1"
@@ -595,7 +595,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "eb953bed384e6dd9fe752b20f5c0649548b750d9753c8ea0ddae6f3e63891fe6"
+content-hash = "1385b32b711803dec25f822264b356ac5371f676c7dc06d20da6340ee859d5e1"
 lock-version = "1.0"
 python-versions = "^3.7"
 
@@ -900,7 +900,7 @@ typing-extensions = [
     {file = "typing_extensions-3.7.4.2.tar.gz", hash = "sha256:79ee589a3caca649a9bfd2a8de4709837400dfa00b6cc81962a1e6a1815969ae"},
 ]
 watchdog = [
-    {file = "watchdog-0.10.2.tar.gz", hash = "sha256:c560efb643faed5ef28784b2245cf8874f939569717a4a12826a173ac644456b"},
+    {file = "watchdog-0.10.3.tar.gz", hash = "sha256:4214e1379d128b0588021880ccaf40317ee156d4603ac388b9adcf29165e0c04"},
 ]
 zipp = [
     {file = "zipp-3.1.0-py3-none-any.whl", hash = "sha256:aa36550ff0c0b7ef7fa639055d797116ee891440eac1a56f378e2d3179e0320b"},
