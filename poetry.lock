@@ -479,7 +479,7 @@ marker = "python_version == \"3.7\""
 name = "pytype"
 optional = false
 python-versions = "<3.9,>=3.5"
-version = "2020.8.28"
+version = "2020.9.14"
 
 [package.dependencies]
 attrs = "*"
@@ -597,7 +597,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "1aadd2b906ea609cbf3f6fce1cb83516208d1cb3af241722c23d54d3d8956d8d"
+content-hash = "712bd8a9f54103187e40309a34e25d59727ed2b06859e700d4701009facc7b7d"
 lock-version = "1.0"
 python-versions = "^3.7"
 
@@ -619,7 +619,6 @@ bandit = [
     {file = "bandit-1.6.2.tar.gz", hash = "sha256:41e75315853507aa145d62a78a2a6c5e3240fe14ee7c601459d0df9418196065"},
 ]
 black = [
-    {file = "black-20.8b1-py3-none-any.whl", hash = "sha256:70b62ef1527c950db59062cda342ea224d772abdf6adc58b86a45421bab20a6b"},
     {file = "black-20.8b1.tar.gz", hash = "sha256:1c02557aa099101b9d21496f8a914e9ed2222ef70336404eeeac8edba836fbea"},
 ]
 click = [
@@ -808,13 +807,13 @@ pytest-runner = [
     {file = "pytest_runner-5.2-py2.py3-none-any.whl", hash = "sha256:5534b08b133ef9a5e2c22c7886a8f8508c95bb0b0bdc6cc13214f269c3c70d51"},
 ]
 pytype = [
-    {file = "pytype-2020.8.28-cp35-cp35m-macosx_10_14_x86_64.whl", hash = "sha256:0c12e077ad4c4a3970bf83f61bf2cb6033fc91e16fef6385ae4799dfaf4d537c"},
-    {file = "pytype-2020.8.28-cp35-cp35m-manylinux2014_x86_64.whl", hash = "sha256:3184ffbd3196b7cd60c89866dc497ff888f546e523df50f06f8257e528580ee0"},
-    {file = "pytype-2020.8.28-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:dda3c464a31530f3b485433fe55ec43fb36ef8e0a6920174d8c7a5f286f036d6"},
-    {file = "pytype-2020.8.28-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:885f0639dcebe37d7edd60a7e520fcdd14d20320586a8151120ad0c97a5fbf4a"},
-    {file = "pytype-2020.8.28-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:aec0bc7a25297c15d2ecb3d2ee095130eba38ea108949b28a0490a91b6f34486"},
-    {file = "pytype-2020.8.28-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:894a2367eedcbbd1cb9cc875279ba3325c8c28bc0c8f00edc02378fa7b86318b"},
-    {file = "pytype-2020.8.28.tar.gz", hash = "sha256:8ac53aef4453631dfb81980a7b7313d2835f602953f4a92aec1f97b5be6b7e10"},
+    {file = "pytype-2020.9.14-cp35-cp35m-macosx_10_14_x86_64.whl", hash = "sha256:ecd07c4140cefb2331c14d4fbe924a9268b8f4df6dae2f8182aa7b2e028eb2ee"},
+    {file = "pytype-2020.9.14-cp35-cp35m-manylinux2014_x86_64.whl", hash = "sha256:e9c61334f2afcef331b4eaca2a37ffec600cd57bfa733b3f63c36d9dd2d3d265"},
+    {file = "pytype-2020.9.14-cp36-cp36m-macosx_10_14_x86_64.whl", hash = "sha256:2305f4d83f3f6bd61b2780192b0b022af5d836e8857c391c5c745becbea67604"},
+    {file = "pytype-2020.9.14-cp36-cp36m-manylinux2014_x86_64.whl", hash = "sha256:a985867023372fabbfae4ee74de8970f927ef658406a460c41dc38ad4cec5d0c"},
+    {file = "pytype-2020.9.14-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:31f6fb911cad61495f99de7a079ab66a7711e18719dfcadb07609f06a1aeaa9e"},
+    {file = "pytype-2020.9.14-cp37-cp37m-manylinux2014_x86_64.whl", hash = "sha256:bcf870414844c2855ab741669fdcebb7fd3b4cb7738b75402c89b4b4312ab8d8"},
+    {file = "pytype-2020.9.14.tar.gz", hash = "sha256:24be093534a71014d5c1a9cfc7220bb9273e7d2cda95cea28128c5515ae8a69a"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
