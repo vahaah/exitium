@@ -26,7 +26,7 @@ flake8-bandit = "^2.1.2"
 mypy = "^0.782"
 pytype = {version = "^2020.9.24", python = "3.7"}
 typeguard = "^2.9.1"
-flake8-annotations = "^2.4.0"
+flake8-annotations = "^2.6.2"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
